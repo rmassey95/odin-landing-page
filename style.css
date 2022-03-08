@@ -1,0 +1,31 @@
+body {
+  margin: 10px 200px 0px 200px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-links {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+}
+
+#header-logo {
+  margin: 0;
+  color: #F9FAF8;
+  font-size: 24px;
+}
