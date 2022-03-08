@@ -35,3 +35,49 @@ a {
   font-size: 24px;
   padding-left: 200px;
 }
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  background-color: #1F2937;
+}
+
+#main-img {
+  width: 480px;
+  height: auto;
+}
+
+.inner-content-main {
+  display:flex;
+  flex-direction: column;
+}
+
+.inner-button-main {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
+
+#title-main {
+  font-size: 48px;
+  margin: 0;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.inner-text-main {
+  color: #F9FAF8;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
