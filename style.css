@@ -93,7 +93,7 @@ a {
   display:flex; 
   gap: 50px;
   margin-top: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .random-info-img {
@@ -123,3 +123,26 @@ a {
   color: #1F2937;
 }
 
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-color: #E5E7EB;
+}
+
+#quote-author {
+  margin-left: auto;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+#quote-text {
+  margin-bottom: 0;
+  font-size: 34px;
+  color: #1F2937;
+  font-weight: 200;
+  font-style: italic;
+}
